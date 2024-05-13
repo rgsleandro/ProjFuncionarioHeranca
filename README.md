@@ -1,0 +1,2 @@
+# ProjFuncionarioHeranca
+Projeto utilizando herança
