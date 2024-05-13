@@ -23,9 +23,9 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="155" max="-2" attributes="0"/>
                           <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
@@ -48,12 +48,12 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                                  <Component id="textPerc" max="32767" attributes="0"/>
+                                  <Component id="textdesc" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="textTvendas" min="-2" pref="111" max="-2" attributes="0"/>
+                                  <Component id="textSalbruto" min="-2" pref="111" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -61,12 +61,12 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="butCalcularsal" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="textsalario" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="butCadastrar" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                               <Component id="butExibir" min="-2" max="-2" attributes="0"/>
@@ -76,7 +76,7 @@
                       <Component id="butvoltar" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="41" max="32767" attributes="0"/>
+              <EmptySpace pref="65" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -98,19 +98,19 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textTvendas" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textSalbruto" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textPerc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textdesc" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="butCadastrar" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="butExibir" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="10" max="32767" attributes="0"/>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -129,32 +129,14 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="butCadastrar">
+    <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Cadastrar"/>
+        <Property name="text" type="java.lang.String" value="Mensalista"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butCadastrarActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="text" type="java.lang.String" value="Nome"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="butExibir">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Exibir"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butExibirActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JTextField" name="textsalario">
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Autonomo"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
@@ -162,25 +144,9 @@
         <Property name="text" type="java.lang.String" value="Registro"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="butCalcularsal">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Calcular Salario"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butCalcularsalActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="butvoltar">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Voltar"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butvoltarActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Total Vendas"/>
+        <Property name="text" type="java.lang.String" value="Salario Bruto"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="textnome">
@@ -190,14 +156,48 @@
     </Component>
     <Component class="javax.swing.JTextField" name="textreg">
     </Component>
-    <Component class="javax.swing.JTextField" name="textTvendas">
+    <Component class="javax.swing.JTextField" name="textSalbruto">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Porcentagem"/>
+        <Property name="text" type="java.lang.String" value="Desconto"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="textPerc">
+    <Component class="javax.swing.JTextField" name="textdesc">
+    </Component>
+    <Component class="javax.swing.JButton" name="butCadastrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cadastrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butCadastrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="butExibir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exibir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butExibirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="butCalcularsal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular Salario"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butCalcularsalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textsalario">
+    </Component>
+    <Component class="javax.swing.JButton" name="butvoltar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Voltar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butvoltarActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

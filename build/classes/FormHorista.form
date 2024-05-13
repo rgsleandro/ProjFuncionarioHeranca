@@ -48,12 +48,12 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                                  <Component id="textPerc" max="32767" attributes="0"/>
+                                  <Component id="textQtdhora" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="textTvendas" min="-2" pref="111" max="-2" attributes="0"/>
+                                  <Component id="textVlhora" min="-2" pref="111" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -98,12 +98,12 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textTvendas" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textVlhora" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="textPerc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textQtdhora" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -129,46 +129,17 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="butCadastrar">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Cadastrar"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butCadastrarActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="text" type="java.lang.String" value="Nome"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="butExibir">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Exibir"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butExibirActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JTextField" name="textsalario">
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Autonomo"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="text" type="java.lang.String" value="Registro"/>
       </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="butCalcularsal">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Calcular Salario"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butCalcularsalActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="butvoltar">
       <Properties>
@@ -180,7 +151,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Total Vendas"/>
+        <Property name="text" type="java.lang.String" value="Valor Hora"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="textnome">
@@ -190,14 +161,43 @@
     </Component>
     <Component class="javax.swing.JTextField" name="textreg">
     </Component>
-    <Component class="javax.swing.JTextField" name="textTvendas">
+    <Component class="javax.swing.JTextField" name="textVlhora">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Porcentagem"/>
+        <Property name="text" type="java.lang.String" value="Qtd. Horas"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="textPerc">
+    <Component class="javax.swing.JTextField" name="textQtdhora">
+    </Component>
+    <Component class="javax.swing.JButton" name="butCadastrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cadastrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butCadastrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="butExibir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exibir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butExibirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Horista"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="butCalcularsal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular Salario"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butCalcularsalActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

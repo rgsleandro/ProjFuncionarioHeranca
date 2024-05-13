@@ -4,7 +4,7 @@ public class Autonomo extends Funcionario{
     public double percvendas;
     
     public double Calcsal(){
-        return this.percvendas/100*this.totvendas;
+        return this.totvendas*100/this.percvendas;
     }
          
 }

@@ -62,7 +62,7 @@ public class FormAutonomo extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Horista");
+        jLabel1.setText("Autonomo");
 
         jLabel3.setText("Registro");
 
